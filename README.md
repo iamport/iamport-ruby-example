@@ -1,24 +1,35 @@
-# README
+# ruby-dummy-example
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Preparation
 
-Things you may want to cover:
+```shell
+sudo gem install rails
+sudo bundle
+```
 
-* Ruby version
+## Serve
 
-* System dependencies
+```shell
+rails server
+```
 
-* Configuration
+## Test
 
-* Database creation
+### Query payment details
 
-* Database initialization
+**GET** localhost:3000/payment/[imp_uid]
 
-* How to run the test suite
+### Cancel payment
 
-* Services (job queues, cache servers, search engines, etc.)
+**POST** localhost:3000/payment
 
-* Deployment instructions
+**Request body (json example)**
 
-* ...
+```json
+{
+   "imp_uid" : "[imp_uid]]",
+   "merchant_uid" : "[merchant_uid]"
+}
+
+```
+
