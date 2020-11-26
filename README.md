@@ -1,4 +1,4 @@
-# ruby-dummy-example
+# iamport-ruby-example
 
 ## Preparation
 
