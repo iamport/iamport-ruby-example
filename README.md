@@ -27,8 +27,10 @@ rails server
 
 ```json
 {
-   "imp_uid" : "[imp_uid]]",
-   "merchant_uid" : "[merchant_uid]"
+   "imp_uid" : "[imp_uid]",
+   "merchant_uid" : "[merchant_uid]",
+   "reason" : "[환불사유]",
+   "cancel_request_amount" : [환불요청금액]
 }
 
 ```
