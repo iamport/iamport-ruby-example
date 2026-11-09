@@ -1,5 +1,13 @@
 # iamport-ruby-example
 
+> [!WARNING]
+> **This repository is deprecated and no longer maintained.**
+>
+> Please refer to the official PortOne documentation below.
+>
+> - **PortOne V2 (recommended)**: [REST API](https://developers.portone.io/api/rest-v2?v=v2) · [Server SDK](https://developers.portone.io/sdk/ko/v2-server-sdk/readme?v=v2)
+> - **PortOne V1 (formerly I'mport)**: [V1 REST API](https://developers.portone.io/api/rest-v1?v=v1)
+
 ## Preparation
 
 ```shell
